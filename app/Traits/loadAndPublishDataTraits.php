@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 /**
  * @mixin ServiceProvider
  */
-trait LoadAndPublishDataTrait
+trait LoadAndPublishDataTraits
 {
     /**
      * @var string

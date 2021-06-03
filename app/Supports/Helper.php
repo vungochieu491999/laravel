@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Support;
+namespace App\Supports;
 
 use Illuminate\Support\Facades\File;
 

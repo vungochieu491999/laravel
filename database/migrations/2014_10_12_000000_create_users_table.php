@@ -39,28 +39,28 @@ class CreateUsersTable extends Migration
             $table->softDeletes();
         });
 
-        DB::statement('ALTER TABLE `users`'.
-                             ' MODIFY COLUMN `super_user` tinyint(1) NOT NULL,'.
-                             ' MODIFY COLUMN `completed_profile` tinyint(1) NOT NULL;');
+        // DB::statement('ALTER TABLE `users`'.
+        //                      ' MODIFY COLUMN `super_user` tinyint(1) NOT NULL,'.
+        //                      ' MODIFY COLUMN `completed_profile` tinyint(1) NOT NULL;');
 
-        Schema::create('roles', function (Blueprint $table) {
-            $table->id();
-            $table->string('name',120);
-            $table->string('slug',120);
-            $table->text('permissions')->nullable();
-            $table->string('description')->nullable();
-            $table->tinyInteger('is_default');
-            $table->integer('created_by');
-            $table->integer('updated_by');
-            $table->timestamps();
-        });
+        // Schema::create('roles', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->string('name',120);
+        //     $table->string('slug',120);
+        //     $table->text('permissions')->nullable();
+        //     $table->string('description')->nullable();
+        //     $table->tinyInteger('is_default');
+        //     $table->integer('created_by');
+        //     $table->integer('updated_by');
+        //     $table->timestamps();
+        // });
 
-        Schema::create('role_users', function (Blueprint $table) {
-            $table->id();
-            $table->integer('user_id');
-            $table->integer('role_id');
-            $table->timestamps();
-        });
+        // Schema::create('role_users', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->integer('user_id');
+        //     $table->integer('role_id');
+        //     $table->timestamps();
+        // });
     }
 
     /**
@@ -71,7 +71,7 @@ class CreateUsersTable extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
-        Schema::dropIfExists('roles');
-        Schema::dropIfExists('role_users');
+        // Schema::dropIfExists('roles');
+        // Schema::dropIfExists('role_users');
     }
 }

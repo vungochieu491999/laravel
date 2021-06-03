@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Http\Admin\Controllers;
+namespace App\Http\Controllers\Theme;
 
 
 use App\Http\Controllers\Controller;

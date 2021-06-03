@@ -1,10 +1,11 @@
 <?php
 
+use App\Http\Controllers\Theme\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Theme Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[HomeController::class,'getIndex'])->name('theme.home');
+
+Route::get('/posts/{id}',[HomeController::class,'postsShow'])->name('theme.post');
+
+Route::get('/categories/{id}',[HomeController::class,'categoriesShow'])->name('theme.category');
+// Route::get('/',[HomeController::class,'getIndex'])->name('theme.home');

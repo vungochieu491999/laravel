@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Admin\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class MemberController extends Controller
+class DashboardController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,17 +14,7 @@ class MemberController extends Controller
      */
     public function getIndex()
     {
-        return view('Admin::dashboard.index');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function postIndex()
-    {
-        return view('Admin::dashboard.index');
+        return view('Admin::pages.dashboard.index');
     }
 
     /**

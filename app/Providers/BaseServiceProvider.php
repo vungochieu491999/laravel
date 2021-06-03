@@ -2,13 +2,13 @@
 
 namespace App\Providers;
 
-use App\Support\Helper;
-use App\Traits\LoadAndPublishDataTrait;
+use App\Supports\Helper;
+use App\Traits\LoadAndPublishDataTraits;
 use Illuminate\Support\ServiceProvider;
 
 class BaseServiceProvider extends ServiceProvider
 {
-    use LoadAndPublishDataTrait;
+    use LoadAndPublishDataTraits;
     /**
      * Register any application services.
      *
@@ -28,5 +28,6 @@ class BaseServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom($this->getRouteFilePath('admin'));
         $this->loadViewsFrom($this->getViewsPath().'/admin/','Admin');
+        $this->loadViewsFrom($this->getViewsPath().'/themes/madd','Theme');
     }
 }

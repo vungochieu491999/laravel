@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{config('app.locale')}}">
 <head>
-    @include('Admin::partials.head')
+    @include('Admin::layouts.partials.head')
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
     <!-- Navbar -->
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        @include('Admin::partials.header')
+        @include('Admin::layouts.partials.header')
     </nav>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
-        @include('Admin::partials.sidebar')
+        @include('Admin::layouts.partials.sidebar')
     </aside>
 
 
@@ -31,7 +31,7 @@
 
     <!-- Main Footer -->
     <footer class="main-footer">
-        @include('Admin::partials.footer')
+        @include('Admin::layouts.partials.footer')
     </footer>
 </div>
 <!-- ./wrapper -->
