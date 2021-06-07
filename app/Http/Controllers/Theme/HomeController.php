@@ -21,6 +21,22 @@ class HomeController extends Controller
         return view('Theme::pages.index', compact('posts'));
     }
 
+    public function about()
+    {
+        return view('Theme::pages.about');
+    }
+
+    public function contact()
+    {
+        return view('Theme::pages.contact');
+    }
+
+    public function store()
+    {
+        return view('Theme::pages.store');
+    }
+
+
     /**
      * Display a listing of the resource.
      *

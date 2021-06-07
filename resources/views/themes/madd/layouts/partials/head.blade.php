@@ -1,13 +1,31 @@
+<!-- SITE TITTLE -->
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AdminLTE 3 | Dashboard 3</title>
+<title>{{ $title }}</title>
 
-<!-- Google Font: Source Sans Pro -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-<!-- Font Awesome Icons -->
-<link rel="stylesheet" href="{{asset('bower_components/admin-lte/plugins/fontawesome-free/css/all.min.css')}}">
-<!-- IonIcons -->
-<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-<!-- Theme style -->
-<link rel="stylesheet" href="{{asset('bower_components/admin-lte/dist/css/adminlte.min.css')}}">
+<!-- FAVICON -->
+<link href="img/favicon.png" rel="shortcut icon">
+<!-- PLUGINS CSS STYLE -->
+<!-- <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
+<!-- Bootstrap -->
+<link rel="stylesheet" href="{{ asset('themes/madd/plugins/bootstrap/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ asset('themes/madd/plugins/bootstrap/css/bootstrap-slider.css') }}">
+<!-- Font Awesome -->
+<link href="{{ asset('themes/madd/plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+<!-- Owl Carousel -->
+<link href="{{ asset('themes/madd/plugins/slick-carousel/slick/slick.css') }}" rel="stylesheet">
+<link href="{{ asset('themes/madd/plugins/slick-carousel/slick/slick-theme.css') }}" rel="stylesheet">
+<!-- Fancy Box -->
+<link href="{{ asset('themes/madd/plugins/fancybox/jquery.fancybox.pack.css') }}" rel="stylesheet">
+<link href="{{ asset('themes/madd/plugins/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet">
+<!-- CUSTOM CSS -->
+<link href="{{ asset('themes/madd/css/style.css') }}" rel="stylesheet">
 
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->

@@ -1,57 +1,45 @@
 <!DOCTYPE html>
-<html lang="{{config('app.locale')}}">
+<html lang="en">
 <head>
-    @include('Admin::partials.head')
+    @include('Theme::layouts.partials.head',['title' => "Home Madd"])
 </head>
-<body class="hold-transition sidebar-mini">
-<div class="wrapper">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-        @include('Admin::partials.header')
-    </nav>
-    <!-- /.navbar -->
 
-    <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
-        @include('Admin::partials.sidebar')
-    </aside>
+<body class="body-wrapper">
+
+<section>
+    @include('Theme::layouts.partials.nav')
+</section>
 
 
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        @yield('content')
-    </div>
-    <!-- /.content-wrapper -->
+@yield('content')
 
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
+<!--============================
+=            Footer            =
+=============================-->
 
-    <!-- Main Footer -->
-    <footer class="main-footer">
-        @include('Admin::partials.footer')
-    </footer>
-</div>
-<!-- ./wrapper -->
+@include('Theme::layouts.partials.footer')
 
-<!-- REQUIRED SCRIPTS -->
-
-<!-- jQuery -->
-<script src="{{asset('bower_components/admin-lte/plugins/jquery/jquery.min.js')}}"></script>
-<!-- Bootstrap -->
-<script src="{{asset('bower_components/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<!-- AdminLTE -->
-<script src="{{asset('bower_components/admin-lte/dist/js/adminlte.js')}}"></script>
-
-<!-- OPTIONAL SCRIPTS -->
-<script src="{{asset('bower_components/admin-lte/plugins/chart.js/Chart.min.js')}}"></script>
-<!-- AdminLTE for demo purposes -->
-{{--<script src="{{asset('bower_components/admin-lte/dist/js/demo.js')}}"></script>--}}
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{asset('bower_components/admin-lte/dist/js/pages/dashboard3.js')}}"></script>
+<!-- JAVASCRIPTS -->
+<script src="{{ asset('themes/madd/plugins/jQuery/jquery.min.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/bootstrap/js/popper.min.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/bootstrap/js/bootstrap-slider.js') }}"></script>
+<!-- tether js -->
+<script src="{{ asset('themes/madd/plugins/tether/js/tether.min.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/raty/jquery.raty-fa.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/slick-carousel/slick/slick.min.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/fancybox/jquery.fancybox.pack.js') }}"></script>
+<script src="{{ asset('themes/madd/plugins/smoothscroll/SmoothScroll.min.js') }}"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+<script src="{{ asset('themes/madd/plugins/google-map/gmap.js') }}"></script>
+<script src="{{ asset('themes/madd/js/script.js') }}"></script>
 
 @yield('scripts')
+
 </body>
 </html>
+
+
+
