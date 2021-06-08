@@ -1,7 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a49e9811-837d-4140-b6d6-b2632647d95f" name="Default Changelist" comment="" />
+    <list default="true" id="a49e9811-837d-4140-b6d6-b2632647d95f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/Ad-listing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/ad-list-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/dashboard-archived-ads.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/dashboard-favourite-ads.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/dashboard-my-ads.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/dashboard-pending-ads.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/single-blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/terms-condition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/themes/classimax/user-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/madd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/madd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Theme/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/BaseServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BaseServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/css/maps/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/css/maps/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/404/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/404/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/about/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/about/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/account/Account.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/account/Account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/account/Account1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/account/Account1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/apps/apple-app-store.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/apps/apple-app-store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/apps/google-play-store.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/apps/google-play-store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/blog/post-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/blog/post-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/blog/post-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/blog/post-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/blog/post-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/blog/post-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/blog/post-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/blog/post-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/blog/post-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/blog/post-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/blog/video-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/blog/video-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/call-to-action/cta-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/call-to-action/cta-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/call-to-action/google-play-button.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/call-to-action/google-play-button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/call-to-action/mockup.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/call-to-action/mockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/category-slider/amazon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/category-slider/amazon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/category-slider/category-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/category-slider/category-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/category-slider/category-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/category-slider/category-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/category-slider/category-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/category-slider/category-04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/category-slider/category-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/category-slider/category-05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/category-slider/category-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/category-slider/category-06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/contact-us/contact-us.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/contact-us/contact-us.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/footer/phone-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/footer/phone-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/home/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/home/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/home/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/home/hero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/logo-footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/logo-footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/nav-toogle-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/nav-toogle-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/products/products-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/products/products-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/products/products-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/products/products-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/products/products-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/products/products-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/products/products-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/products/products-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/subscription/subscription-back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/subscription/subscription-back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/team/team1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/team/team1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/team/team2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/team/team2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/team/team3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/team/team3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/team/team4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/team/team4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/user/user-thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/user/user-thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/images/widget/store-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/images/widget/store-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/bootstrap/css/bootstrap-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/bootstrap/css/bootstrap-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/bootstrap/js/bootstrap-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/bootstrap/js/bootstrap-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/bootstrap/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/bootstrap/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/counter-up/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/counter-up/jquery.counterup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/counter-up/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/counter-up/waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/images/fancybox_loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/images/fancybox_loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/images/fancybox_loading@2x.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/images/fancybox_loading@2x.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/images/fancybox_overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/images/fancybox_overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/images/fancybox_sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/images/fancybox_sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/images/fancybox_sprite@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/images/fancybox_sprite@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/jquery.fancybox.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/jquery.fancybox.pack.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/jquery.fancybox.pack.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/fancybox/jquery.fancybox.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/fancybox/jquery.fancybox.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/google-map/gmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/google-map/gmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/google-map/images/marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/google-map/images/marker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jQuery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jQuery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jquery-nice-select/css/nice-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jquery-nice-select/css/nice-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jquery-nice-select/js/fastclick.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jquery-nice-select/js/fastclick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jquery-nice-select/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jquery-nice-select/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jquery-nice-select/js/jquery.nice-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jquery-nice-select/js/jquery.nice-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jquery-nice-select/js/jquery.nice-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jquery-nice-select/js/jquery.nice-select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/jquery-nice-select/js/prism.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/jquery-nice-select/js/prism.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/raty/jquery.raty-fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/raty/jquery.raty-fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/CONTRIBUTING.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/CONTRIBUTING.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/component.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/fonts/slick.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/fonts/slick.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/fonts/slick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick-theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick-theme.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick-theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/slick-carousel/slick/slick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/slick-carousel/slick/slick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/smoothscroll/SmoothScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/smoothscroll/SmoothScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/smoothscroll/SmoothScroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/smoothscroll/SmoothScroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether-theme-arrows-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether-theme-arrows-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether-theme-arrows-dark.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether-theme-arrows-dark.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether-theme-arrows.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether-theme-arrows.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether-theme-arrows.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether-theme-arrows.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether-theme-basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether-theme-basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether-theme-basic.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether-theme-basic.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/css/tether.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/css/tether.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/js/tether.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/js/tether.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/plugins/tether/js/tether.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/plugins/tether/js/tether.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_media-queries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_media-queries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_ad-list-view.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_ad-list-view.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_ad-listing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_ad-listing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_call-to-action.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_call-to-action.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_category-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_category-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_contact-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_hero-area.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_hero-area.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_homepage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_log-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_log-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_package.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_package.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_store-single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_store-single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_store.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_store.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_submit-coupon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_submit-coupon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_terms-condition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_terms-condition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_user-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_user-dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/madd/scss/templates/_widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/scss/templates/_widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/layouts/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/layouts/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/layouts/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/layouts/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/auth/forgor-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/auth/forgor-password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/categories/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/categories/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes/madd/pages/store.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/store.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +225,14 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="prod" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,8 +353,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/themes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -141,17 +363,17 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\laravel\public\themes" />
+      <recent name="D:\xampp\htdocs\laravel\app\Http\Controllers\Theme" />
+      <recent name="D:\xampp\htdocs\laravel\resources\views\themes\madd\pages" />
+      <recent name="D:\xampp\htdocs\laravel\public\themes\madd" />
+      <recent name="D:\xampp\htdocs\madd\database\migrations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\madd\app\Traits" />
       <recent name="D:\xampp\htdocs\madd\app" />
       <recent name="D:\xampp\htdocs\madd\app\Http\Controllers\admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\madd\database\migrations" />
-      <recent name="D:\xampp\htdocs\madd\resources\views\admin\Auth" />
-      <recent name="D:\xampp\htdocs\madd\resources\views\themes\madd\auth" />
-      <recent name="D:\xampp\htdocs\madd\resources\views\themes\madd" />
-      <recent name="D:\xampp\htdocs\madd\app\Http\Admin\Controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -173,17 +395,44 @@
       <workItem from="1622530521792" duration="1875000" />
       <workItem from="1622532415280" duration="11179000" />
       <workItem from="1622543706931" duration="441000" />
+      <workItem from="1622778528861" duration="1461000" />
+      <workItem from="1622789488354" duration="3634000" />
+      <workItem from="1622799889577" duration="1610000" />
+      <workItem from="1623047905346" duration="6251000" />
+      <workItem from="1623059899095" duration="719000" />
+      <workItem from="1623066140838" duration="124000" />
+      <workItem from="1623122571147" duration="2034000" />
     </task>
+    <task id="LOCAL-00001" summary="source">
+      <created>1623066227955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623066227955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="source" />
+    <option name="LAST_COMMIT_MESSAGE" value="source" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1622534350814">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1623123431235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622534350814" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623123431235" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1623066221110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623066221110" />
+    <state x="899" y="241" key="FileChooserDialogImpl" timestamp="1623123044110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="899" y="241" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623123044110" />
     <state x="730" y="334" key="NewPhpClassDialog" timestamp="1622538633773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,13 +445,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622532009831" />
-    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1622540316101">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1623066244369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622540316101" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623066244369" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1623122576579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623122576579" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1623124247830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623124247830" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1622534232546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622534232546" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623123395120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623123395120" />
   </component>
 </project>

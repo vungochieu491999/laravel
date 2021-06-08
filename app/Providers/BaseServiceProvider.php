@@ -28,6 +28,6 @@ class BaseServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom($this->getRouteFilePath('admin'));
         $this->loadViewsFrom($this->getViewsPath().'/admin/','Admin');
-        $this->loadViewsFrom($this->getViewsPath().'/themes/madd','Theme');
+        $this->loadViewsFrom($this->getViewsPath().'/themes/classimax','Theme');
     }
 }

@@ -6,7 +6,7 @@
                 <!-- About -->
                 <div class="block about">
                     <!-- footer logo -->
-                    <img src="images/logo-footer.png" alt="">
+                    <img src="{{ asset('themes/classimax/images/logo-footer.png') }}" alt="">
                     <!-- description -->
                     <p class="alt-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -50,13 +50,13 @@
                     <div class="mobile d-flex">
                         <a href="">
                             <!-- Icon -->
-                            <img src="images/footer/phone-icon.png" alt="mobile-icon">
+                            <img src="{{ asset('themes/classimax/images/footer/phone-icon.png') }}" alt="mobile-icon">
                         </a>
                         <p>Get the Dealsy Mobile App and Save more</p>
                     </div>
                     <div class="download-btn d-flex my-3">
-                        <a href="#"><img src="images/apps/google-play-store.png" class="img-fluid" alt=""></a>
-                        <a href="#" class=" ml-3"><img src="images/apps/apple-app-store.png" class="img-fluid" alt=""></a>
+                        <a href="#"><img src="{{ asset('themes/classimax/images/apps/google-play-store.png') }}" class="img-fluid" alt=""></a>
+                        <a href="#" class=" ml-3"><img src="{{ asset('themes/classimax/images/apps/apple-app-store.png') }}" class="img-fluid" alt=""></a>
                     </div>
                 </div>
             </div>

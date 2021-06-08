@@ -5,6 +5,7 @@ use App\Http\Controllers\Theme\CommunityController;
 use App\Http\Controllers\Theme\HomeController;
 use App\Http\Controllers\Theme\LoginController;
 use App\Http\Controllers\Theme\PostController;
+use App\Http\Controllers\Theme\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,9 +22,9 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' =>'web', 'namespace' => 'App\Http\Controllers\Theme', 'as' => 'theme.'], function() {
     Route::get('/',[HomeController::class,'getIndex'])->name('home');
 
-    Route::get('/about-us',[HomeController::class,'about'])->name('about');
+    Route::get('/about',[HomeController::class,'about'])->name('about');
 
-    Route::get('/contact-us',[HomeController::class,'contact'])->name('contact');
+    Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 
     Route::get('/store',[HomeController::class,'store'])->name('store');
 
@@ -44,6 +45,6 @@ Route::group(['middleware' =>'web', 'namespace' => 'App\Http\Controllers\Theme',
     Route::post('/forgot-password',[LoginController::class,'postForgotPassword']);
 
     //register route
-    Route::get('/register',[LoginController::class,'getRegister'])->name('register');
-    Route::post('/register',[LoginController::class,'postRegister']);
+    Route::get('/register',[RegisterController::class,'getRegister'])->name('register');
+    Route::post('/register',[RegisterController::class,'postRegister']);
 });
