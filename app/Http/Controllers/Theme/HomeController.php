@@ -18,7 +18,8 @@ class HomeController extends Controller
     public function getIndex()
     {
         $posts = Post::all();
-        return view('Theme::pages.index', compact('posts'));
+        $prefix = config('general.theme.prefix_home');
+        return view('Theme::pages.index', compact('posts','prefix'));
     }
 
     public function about()

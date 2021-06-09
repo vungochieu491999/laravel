@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group(['namespace' => 'App\Http\Controllers\Admin'],function () {
-    Route::group(['prefix' => config('general.admin_dir'), 'middleware' => 'web', 'as' => 'admin.'], function() {
+    Route::group(['prefix' => config('general.admin.admin_dir'), 'middleware' => 'web', 'as' => 'admin.'], function() {
         //dashboard
         Route::get('/', [DashboardController::class,'getIndex'])->name('dashboard-view');
 

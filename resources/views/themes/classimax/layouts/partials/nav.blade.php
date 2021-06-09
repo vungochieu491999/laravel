@@ -11,15 +11,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto main-nav ">
-                        <li class="nav-item active">
+                        <li class="nav-item @if ($prefix == '' || $prefix == 'home') active @endif">
                             <a class="nav-link" href="{{ route('theme.home') }}">Home</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('theme.home') }}">Community</a>
+                        <li class="nav-item @if ($prefix == 'community') active @endif">
+                            <a class="nav-link" href="{{ route('theme.community') }}">Community</a>
                         </li>
-                        <li class="nav-item dropdown dropdown-slide">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Dashboard<span><i class="fa fa-angle-down"></i></span>
+                        <li class="nav-item dropdown dropdown-slide @if ($prefix == 'category') active @endif">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Category<span><i class="fa fa-angle-down"></i></span>
                             </a>
 
                             <!-- Dropdown list -->
@@ -31,7 +31,7 @@
                                 <a class="dropdown-item" href="dashboard-pending-ads.html">Dashboard Pending Ads</a>
                             </div>
                         </li>
-                        <li class="nav-item dropdown dropdown-slide">
+                        <li class="nav-item dropdown dropdown-slide @if ($prefix == 'more') active @endif">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Pages <span><i class="fa fa-angle-down"></i></span>
                             </a>
