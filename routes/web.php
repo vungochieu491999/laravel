@@ -31,9 +31,9 @@ Route::group(['middleware' =>'web', 'namespace' => 'App\Http\Controllers\Theme',
     Route::group(['prefix' =>'community'], function() {
         Route::get('/',[CommunityController::class,'getIndex'])->name('community');
 
-        Route::get('/p/{slug}',[PostController::class,'postsShow'])->name('posts');
+        Route::get('/p/{slug}',[PostController::class,'postShow'])->name('posts');
 
-        Route::get('/c/{id}',[CategoryController::class,'categoriesShow'])->name('categories');
+        Route::get('/c/{id}',[CategoryController::class,'categoryShow'])->name('categories');
 
     });
 

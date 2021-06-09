@@ -5,7 +5,7 @@
 <title>{{ $title }}</title>
 
 <!-- FAVICON -->
-<link href="img/favicon.png" rel="shortcut icon">
+<!-- <link href="img/favicon.png" rel="shortcut icon"> -->
 <!-- PLUGINS CSS STYLE -->
 <!-- <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
 <!-- Bootstrap -->

@@ -30,6 +30,7 @@
 						<!-- Post Title -->
 						<h3>{{ $post->title}}</h3>
 						<ul class="list-inline">
+							<li class="list-inline-item"> @foreach($post->tags as $tag) <a href="">{{ $tag->name }} </a> @if (!$loop->last) , @endif @endforeach </li>
 							<li class="list-inline-item">by <a href="">Admin</a></li>
 							<li class="list-inline-item">Nov 22,2016</li>
 						</ul>
@@ -70,11 +71,9 @@
 						<!-- Widget Header -->
 						<h5 class="widget-header">Categories</h5>
 						<ul class="category-list">
-							<li><a href="">Appearel <span class="float-right">(2)</span></a></li>
-							<li><a href="">Accesories <span class="float-right">(5)</span></a></li>
-							<li><a href="">Business<span class="float-right">(7)</span></a></li>
-							<li><a href="">Entertaiment<span class="float-right">(3)</span></a></li>
-							<li><a href="">Education<span class="float-right">(9)</span></a></li>
+							@foreach($categories as $category)
+								<li><a href="">{{ $category->name}} <span class="float-right">( {{ $category->posts->count() }} )</span></a></li>
+							@endforeach
 						</ul>
 					</div>
 					<!-- Archive Widget -->

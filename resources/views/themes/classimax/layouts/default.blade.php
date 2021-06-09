@@ -30,7 +30,6 @@
 <script src="{{ asset('themes/classimax/plugins/slick-carousel/slick/slick.min.js') }}"></script>
 <script src="{{ asset('themes/classimax/plugins/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
 <script src="{{ asset('themes/classimax/plugins/fancybox/jquery.fancybox.pack.js') }}"></script>
-<script src="{{ asset('themes/classimax/plugins/smoothscroll/SmoothScroll.min.js') }}"></script>
 <!-- google map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
 <script src="{{ asset('themes/classimax/plugins/google-map/gmap.js') }}"></script>

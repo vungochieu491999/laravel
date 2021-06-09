@@ -1,17 +1,3 @@
-@if(!empty($post))
-    <h2> {{ $post->title }} </h2>
-    {!! $post->description !!}
-
-    <h4>Comments: </h4>
-    @if(!empty($post->comments))
-        @foreach($post->comments as $comment)
-            <b>{{$comment->comment}}</b>
-            <b>as - {{$comment->created_at->diffForHumans()}}</b>
-            <br>
-        @endforeach
-    @endif
-@endif
-
 @extends('Theme::layouts.default')
 
 @section('content')
@@ -25,7 +11,7 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
                     <!-- Title text -->
-                    <h3>Blog Page</h3>
+                    <h3>{{ $post->title }}</h3>
                 </div>
             </div>
         </div>
@@ -39,114 +25,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-9 offset-lg-0">
-                    <!-- Article 01 -->
-                    <article>
-                        <!-- Post Image -->
-                        <div class="image">
-                            <img src="images/blog/post-1.jpg" alt="article-01">
-                        </div>
-                        <!-- Post Title -->
-                        <h3>Donec id dolor in erat imperdiet.</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">by <a href="">Admin</a></li>
-                            <li class="list-inline-item">Nov 22,2016</li>
-                        </ul>
-                        <!-- Post Description -->
-                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto tempore voluptatum blanditiis impedit alias magni ullam facilis perspiciatis magnam!</p>
-                        <!-- Read more button -->
-                        <a href="" class="btn btn-transparent">Read More</a>
-                    </article>
-                    <!-- Article 02 -->
-                    <article>
-                        <div class="post-slider">
-                            <div class="item"><img src="images/blog/post-2.jpg" alt="Slider-Img-01"></div>
-                            <div class="item"><img src="images/blog/post-2.jpg" alt="Slider-Img-02"></div>
-                            <div class="item"><img src="images/blog/post-2.jpg" alt="Slider-Img-03"></div>
-                        </div>
-                        <h3>Donec id dolor in erat imperdiet.</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">by <a href="">Admin</a></li>
-                            <li class="list-inline-item">Nov 22,2016</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto tempore voluptatum blanditiis impedit alias magni ullam facilis perspiciatis magnam!</p>
-                        <a href="" class="btn btn-transparent">Read More</a>
-                    </article>
-                    <!-- Article 03 -->
-                    <article>
-                        <div class="video overly">
-                            <img src="images/blog/post-3.jpg" alt="video-thumbnail">
-                            <div class="video-button video-box">
-                                <a href="javascript:void(0)">
-                                    <img src="images/blog/video-icon.png" data-video="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1" alt="video-icon">
-                                </a>
-                            </div>
-                        </div>
-                        <h3>Donec id dolor in erat imperdiet.</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">by <a href="">Admin</a></li>
-                            <li class="list-inline-item">Nov 22,2016</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto tempore voluptatum blanditiis impedit alias magni ullam facilis perspiciatis magnam!</p>
-                        <a href="" class="btn btn-transparent">Read More</a>
-                    </article>
-                    <!-- Article 04 -->
-                    <article>
-                        <!-- Post Image -->
-                        <div class="image">
-                            <img src="images/blog/post-4.jpg" alt="article-01">
-                        </div>
-                        <!-- Post Title -->
-                        <h3>Donec id dolor in erat imperdiet.</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">by <a href="">Admin</a></li>
-                            <li class="list-inline-item">Nov 22,2016</li>
-                        </ul>
-                        <!-- Post Description -->
-                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto tempore voluptatum blanditiis impedit alias magni ullam facilis perspiciatis magnam!</p>
-                        <!-- Read more button -->
-                        <a href="" class="btn btn-transparent">Read More</a>
-                    </article>
-                    <!-- Article 05 -->
-                    <article>
-                        <!-- Post Image -->
-                        <div class="image">
-                            <img src="images/blog/post-5.jpg" alt="article-01">
-                        </div>
-                        <!-- Post Title -->
-                        <h3>Donec id dolor in erat imperdiet.</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">by <a href="">Admin</a></li>
-                            <li class="list-inline-item">Nov 22,2016</li>
-                        </ul>
-                        <!-- Post Description -->
-                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto tempore voluptatum blanditiis impedit alias magni ullam facilis perspiciatis magnam!</p>
-                        <!-- Read more button -->
-                        <a href="" class="btn btn-transparent">Read More</a>
-                    </article>
-                    <!-- Article 06 -->
-                    <article>
-                        <h3>Donec id dolor in erat imperdiet.</h3>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">by <a href="">Admin</a></li>
-                            <li class="list-inline-item">Nov 22,2016</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto tempore voluptatum blanditiis impedit alias magni ullam facilis perspiciatis magnam!</p>
-                        <a href="" class="btn btn-transparent">Read More</a>
-                    </article>
-                    <!-- Pagination -->
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination">
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
-                                    <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                    @if(!empty($post))
+                        <h2> {{ $post->title }} </h2>
+                        {!! $post->description !!}
+
+                        <h4>Comments: </h4>
+                        @if(!empty($post->comments))
+                            @foreach($post->comments as $comment)
+                                <b>{{$comment->comment}}</b>
+                                <b>as - {{$comment->created_at->diffForHumans()}}</b>
+                                <br>
+                            @endforeach
+                        @endif
+                    @endif
                 </div>
                 <div class="col-md-10 offset-md-1 col-lg-3 offset-lg-0">
                     <div class="sidebar">
