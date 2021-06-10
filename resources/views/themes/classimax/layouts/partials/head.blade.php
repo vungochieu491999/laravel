@@ -1,11 +1,12 @@
 <!-- SITE TITTLE -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Viet nam vo dich">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ $title }}</title>
+<title>{{ page_title()->getTitle() }}</title>
 
 <!-- FAVICON -->
-<!-- <link href="img/favicon.png" rel="shortcut icon"> -->
+{{--<link href="{{ asset('themes/classimax/images/logo.png') }}" rel="shortcut icon">--}}
 <!-- PLUGINS CSS STYLE -->
 <!-- <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
 <!-- Bootstrap -->
@@ -26,6 +27,6 @@
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+{{--<!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->--}}
+{{--<!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->--}}
+{{--<![endif]-->--}}

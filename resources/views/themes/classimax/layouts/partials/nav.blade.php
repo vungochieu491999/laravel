@@ -12,41 +12,26 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto main-nav ">
                         <li class="nav-item @if ($prefix == '' || $prefix == 'home') active @endif">
-                            <a class="nav-link" href="{{ route('theme.home') }}">Home</a>
+                            <a class="nav-link" href="{{ route('theme.home') }}">{{ trans('theme_general.home') }}</a>
                         </li>
 
                         <li class="nav-item @if ($prefix == 'community') active @endif">
-                            <a class="nav-link" href="{{ route('theme.community') }}">Community</a>
+                            <a class="nav-link" href="{{ route('theme.community') }}">{{ trans('theme_general.community') }}</a>
                         </li>
-                        <li class="nav-item dropdown dropdown-slide @if ($prefix == 'category') active @endif">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Category<span><i class="fa fa-angle-down"></i></span>
-                            </a>
 
-                            <!-- Dropdown list -->
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="dashboard.html">Dashboard</a>
-                                <a class="dropdown-item" href="dashboard-my-ads.html">Dashboard My Ads</a>
-                                <a class="dropdown-item" href="dashboard-favourite-ads.html">Dashboard Favourite Ads</a>
-                                <a class="dropdown-item" href="dashboard-archived-ads.html">Dashboard Archived Ads</a>
-                                <a class="dropdown-item" href="dashboard-pending-ads.html">Dashboard Pending Ads</a>
-                            </div>
+                        <li class="nav-item @if ($prefix == 'category') active @endif">
+                            <a class="nav-link" href="{{ route('theme.community') }}">{{ trans('theme_general.category') }}</a>
                         </li>
+
                         <li class="nav-item dropdown dropdown-slide @if ($prefix == 'more') active @endif">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Pages <span><i class="fa fa-angle-down"></i></span>
+                                {{ trans('theme_general.more') }} <span><i class="fa fa-angle-down"></i></span>
                             </a>
                             <!-- Dropdown list -->
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="{{ route('theme.about') }}">About Us</a>
-                                <a class="dropdown-item" href="{{ route('theme.contact') }}">Contact Us</a>
+                                <a class="dropdown-item" href="{{ route('theme.about') }}"> {{ trans('theme_general.about') }} </a>
+                                <a class="dropdown-item" href="{{ route('theme.contact') }}"> {{ trans('theme_general.contact') }}</a>
                                 <a class="dropdown-item" href="{{ route('theme.store') }}">Store Single</a>
-                                <a class="dropdown-item" href="user-profile.html">User Profile</a>
-                                <a class="dropdown-item" href="404.html">404 Page</a>
-                                <a class="dropdown-item" href="package.html">Package</a>
-                                <a class="dropdown-item" href="single.html">Single Page</a>
-                                <a class="dropdown-item" href="single-blog.html">Single Post</a>
-                                <a class="dropdown-item" href="blog.html">Blog</a>
-
                             </div>
                         </li>
                     </ul>
