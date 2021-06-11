@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{config('locale')}}">
 <head>
-    @include('Theme::layouts.partials.head',['title' => "Home Madd"])
+    @include('Theme::layouts.partials.head')
 </head>
 
 <body class="body-wrapper">
@@ -25,7 +25,7 @@
 <script src="{{ asset('themes/classimax/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('themes/classimax/plugins/bootstrap/js/bootstrap-slider.js') }}"></script>
 <!-- tether js -->
-<script src="{{ asset('themes/classimax/plugins/tether/js/tether.min.js') }}"></script>
+{{--<script src="{{ asset('themes/classimax/plugins/tether/js/tether.min.js') }}"></script>--}}
 <script src="{{ asset('themes/classimax/plugins/raty/jquery.raty-fa.js') }}"></script>
 <script src="{{ asset('themes/classimax/plugins/slick-carousel/slick/slick.min.js') }}"></script>
 <script src="{{ asset('themes/classimax/plugins/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>

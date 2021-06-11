@@ -10,7 +10,19 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
 
-    public function getIndex(Request $request){
+    public function getLogin(Request $request){
+        return view('Admin::pages.auth.login');
+    }
+
+    public function postLogin(Request $request){
+        return view('Admin::pages.auth.login');
+    }
+
+    public function getRegister(Request $request){
+        return view('Admin::pages.auth.login');
+    }
+
+    public function postRegister(Request $request){
         return view('Admin::pages.auth.login');
     }
 

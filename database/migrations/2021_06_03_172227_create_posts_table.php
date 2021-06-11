@@ -20,8 +20,10 @@ class CreatePostsTable extends Migration
             $table->enum('status',['active','inactive','rejected'])->default('active');
             $table->text('description')->nullable();
             $table->unsignedBigInteger('category_id');
+            $table->unsignedBigInteger('user_id');
 
             $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

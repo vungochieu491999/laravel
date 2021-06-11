@@ -72,10 +72,7 @@
             <div class="col-sm-6 col-12">
                 <!-- Copyright -->
                 <div class="copyright">
-                    <p>Copyright © <script>
-                            var CurrentYear = new Date().getFullYear()
-                            document.write(CurrentYear)
-                        </script>. All Rights Reserved, theme by <a class="text-primary" href="https://themefisher.com" target="_blank" rel="noopener">themefisher.com</a></p>
+                    <p>Copyright © . All Rights Reserved</p>
                 </div>
             </div>
             <div class="col-sm-6 col-12">

@@ -32,42 +32,28 @@ class HomeController extends Controller
 
     public function about()
     {
-        page_title()->setTitle(config('general.theme.home_name'));
-        return view('Theme::pages.about');
+        page_title()->setTitle(config('general.theme.about'));
+
+        $posts = Post::all();
+        $prefix = config('general.theme.prefix_home');
+        return view('Theme::pages.index', compact('posts','prefix'));
     }
 
     public function contact()
     {
-        page_title()->setTitle(config('general.theme.home_name'));
-        return view('Theme::pages.contact');
+        page_title()->setTitle(config('general.theme.about'));
+        
+        $posts = Post::all();
+        $prefix = config('general.theme.prefix_home');
+        return view('Theme::pages.index', compact('posts','prefix'));
     }
 
     public function store()
     {
-        page_title()->setTitle(config('general.theme.home_name'));
-        return view('Theme::pages.store');
-    }
+        page_title()->setTitle(config('general.theme.about'));
 
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function postsShow($id)
-    {
-        page_title()->setTitle(config('general.theme.home_name'));
-        return view('Theme::pages.posts.show', compact('post'));
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function categoriesShow($id)
-    {
-        page_title()->setTitle(config('general.theme.home_name'));
-        return view('Theme::pages.categories.show', compact('category'));
+        $posts = Post::all();
+        $prefix = config('general.theme.prefix_home');
+        return view('Theme::pages.index', compact('posts','prefix'));
     }
 }

@@ -29,18 +29,18 @@
                             </a>
                             <!-- Dropdown list -->
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="{{ route('theme.about') }}"> {{ trans('theme_general.about') }} </a>
-                                <a class="dropdown-item" href="{{ route('theme.contact') }}"> {{ trans('theme_general.contact') }}</a>
-                                <a class="dropdown-item" href="{{ route('theme.store') }}">Store Single</a>
+                                <a class="dropdown-item" href="{{ route('theme.about') }}">{{ trans('theme_general.about') }}</a>
+                                <a class="dropdown-item" href="{{ route('theme.contact') }}">{{ trans('theme_general.contact') }}</a>
+                                <a class="dropdown-item" href="{{ route('theme.store') }}">{{ trans('theme_general.store') }}</a>
                             </div>
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto mt-10">
                         <li class="nav-item">
-                            <a class="nav-link login-button" href="{{ route('theme.login') }}">Login</a>
+                            <a class="nav-link login-button" href="{{ route('theme.login') }}">{{ trans('theme_general.login') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white add-button" href="{{ route('theme.register') }}"><i class="fa fa-plus-circle"></i> Register</a>
+                            <a class="nav-link text-white add-button" href="{{ route('theme.register') }}"><i class="fa fa-plus-circle"></i>{{ trans('theme_general.register') }}</a>
                         </li>
                     </ul>
                 </div>
