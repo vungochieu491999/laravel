@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function getIndex()
     {
-        page_title()->setTitle(config('general.theme.home_name'));
+        page_title()->setTitle(trans('theme_general.home'));
         $posts = Post::all();
         $prefix = config('general.theme.prefix_home');
         return view('Theme::pages.index', compact('posts','prefix'));
@@ -32,7 +32,7 @@ class HomeController extends Controller
 
     public function about()
     {
-        page_title()->setTitle(config('general.theme.about'));
+        page_title()->setTitle(trans('theme_general.about'));
 
         $posts = Post::all();
         $prefix = config('general.theme.prefix_home');
@@ -41,8 +41,8 @@ class HomeController extends Controller
 
     public function contact()
     {
-        page_title()->setTitle(config('general.theme.about'));
-        
+        page_title()->setTitle(trans('theme_general.contact'));
+
         $posts = Post::all();
         $prefix = config('general.theme.prefix_home');
         return view('Theme::pages.index', compact('posts','prefix'));
@@ -50,7 +50,7 @@ class HomeController extends Controller
 
     public function store()
     {
-        page_title()->setTitle(config('general.theme.about'));
+        page_title()->setTitle(trans('theme_general.store'));
 
         $posts = Post::all();
         $prefix = config('general.theme.prefix_home');

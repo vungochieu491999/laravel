@@ -18,11 +18,11 @@
                 <div class="block">
                     <h4>Site Pages</h4>
                     <ul>
-                        <li><a href="#">Boston</a></li>
-                        <li><a href="#">How It works</a></li>
-                        <li><a href="#">Deals & Coupons</a></li>
-                        <li><a href="#">Articls & Tips</a></li>
-                        <li><a href="terms-condition.html">Terms & Conditions</a></li>
+                        <li><a href="category.html">Category</a></li>
+                        <li><a href="single.html">Single Page</a></li>
+                        <li><a href="store.html">Store Single</a></li>
+                        <li><a href="single-blog.html">Single Post</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,12 +34,8 @@
                         <li><a href="category.html">Category</a></li>
                         <li><a href="single.html">Single Page</a></li>
                         <li><a href="store.html">Store Single</a></li>
-                        <li><a href="single-blog.html">Single Post</a>
-                        </li>
+                        <li><a href="single-blog.html">Single Post</a></li>
                         <li><a href="blog.html">Blog</a></li>
-
-
-
                     </ul>
                 </div>
             </div>
@@ -48,15 +44,15 @@
                 <!-- App promotion -->
                 <div class="block-2 app-promotion">
                     <div class="mobile d-flex">
-                        <a href="">
+                        <a href="#">
                             <!-- Icon -->
                             <img src="{{ asset('themes/classimax/images/footer/phone-icon.png') }}" alt="mobile-icon">
                         </a>
                         <p>Get the Dealsy Mobile App and Save more</p>
                     </div>
                     <div class="download-btn d-flex my-3">
-                        <a href="#"><img src="{{ asset('themes/classimax/images/apps/google-play-store.png') }}" class="img-fluid" alt=""></a>
-                        <a href="#" class=" ml-3"><img src="{{ asset('themes/classimax/images/apps/apple-app-store.png') }}" class="img-fluid" alt=""></a>
+                        <a href="#"><img src="{{ asset('themes/classimax/images/apps/google-play-store.png') }}" class="img-fluid" alt="play-store"></a>
+                        <a href="#" class=" ml-3"><img src="{{ asset('themes/classimax/images/apps/apple-app-store.png') }}" class="img-fluid" alt="apple-store"></a>
                     </div>
                 </div>
             </div>
@@ -78,10 +74,10 @@
             <div class="col-sm-6 col-12">
                 <!-- Social Icons -->
                 <ul class="social-media-icons text-right">
-                    <li><a class="fa fa-facebook" href="https://www.facebook.com/themefisher" target="_blank" rel="noopener"></a></li>
-                    <li><a class="fa fa-twitter" href="https://www.twitter.com/themefisher" target="_blank" rel="noopener"></a></li>
-                    <li><a class="fa fa-pinterest-p" href="https://www.pinterest.com/themefisher" target="_blank" rel="noopener"></a></li>
-                    <li><a class="fa fa-vimeo" href="https://www.pinterest.com/themefisher" target="_blank" rel="noopener"></a></li>
+                    <li><a class="fa fa-facebook" href="https://www.facebook.com/themefisher" target="_blank" rel="noopener" alt="facebook"></a></li>
+                    <li><a class="fa fa-twitter" href="https://www.twitter.com/themefisher" target="_blank" rel="noopener" alt="twitter"></a></li>
+                    <li><a class="fa fa-pinterest-p" href="https://www.pinterest.com/themefisher" target="_blank" rel="noopener" alt="pinterest"></a></li>
+                    <li><a class="fa fa-vimeo" href="https://www.pinterest.com/themefisher" target="_blank" rel="noopener" alt="pinterest"></a></li>
                 </ul>
             </div>
         </div>
@@ -89,6 +85,6 @@
     <!-- Container End -->
     <!-- To Top -->
     <div class="top-to">
-        <a id="top" class="" href="#"><i class="fa fa-angle-up"></i></a>
+        <a id="top" href="#"><i class="fa fa-angle-up" alt="top"></i></a>
     </div>
 </footer>

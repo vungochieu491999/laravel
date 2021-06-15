@@ -1,8 +1,8 @@
 <!-- Brand Logo -->
-<a href="index3.html" class="brand-link">
-    <img src="{{asset('bower_components/admin-lte/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo"
+<a href="{{ route('admin.dashboard-view') }}" class="brand-link">
+    <img src="{{asset('bower_components/admin-lte/dist/img/AdminLTELogo.png')}}" alt="Logo"
          class="brand-image img-circle elevation-3" style="opacity: .8">
-    <span class="brand-text font-weight-light">AdminLTE 3</span>
+    <span class="brand-text font-weight-light"> {{ config('general.core.base_name') }}</span>
 </a>
 
 <!-- Sidebar -->
@@ -35,7 +35,24 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
-            <!-- <li class="nav-item menu-open">
+            <li class="nav-item">
+                <a href="{{ route('admin.dashboard-view') }}" class="nav-link">
+                    <i class="nav-icon fas fa-th"></i>
+                    <p>
+                        {{ trans('admin_general.dashboard') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('admin.posts-view') }}" class="nav-link">
+                    <i class="nav-icon fas fa-th"></i>
+                    <p>
+                        {{ trans('admin_general.post') }}
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item menu-open">
                 <a href="#" class="nav-link active">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
@@ -73,7 +90,7 @@
                     </p>
                 </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-copy"></i>
                     <p>

@@ -3,7 +3,7 @@
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg navbar-light navigation">
                 <a class="navbar-brand" href="{{ route('theme.home') }}">
-                    <img src="{{ asset('themes/classimax/images/logo.png') }}" alt="">
+                    <img src="{{ asset('themes/classimax/images/logo.png') }}" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,12 +36,18 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto mt-10">
-                        <li class="nav-item">
-                            <a class="nav-link login-button" href="{{ route('theme.login') }}">{{ trans('theme_general.login') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white add-button" href="{{ route('theme.register') }}"><i class="fa fa-plus-circle"></i>{{ trans('theme_general.register') }}</a>
-                        </li>
+                        @if(Auth::check())
+                            <li class="nav-item">
+                                <a class="nav-link login-button" href="{{ route('theme.login') }}">{{ trans('theme_general.profile') }}</a>
+                            </li>
+                        @else
+                            <li class="nav-item">
+                                <a class="nav-link login-button" href="{{ route('theme.login') }}">{{ trans('theme_general.login') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white add-button" href="{{ route('theme.register') }}"><i class="fa fa-plus-circle"></i> {{ trans('theme_general.register') }} </a>
+                            </li>
+                        @endif
                     </ul>
                 </div>
             </nav>

@@ -16,14 +16,17 @@ class TagSeeder extends Seeder
     {
         $seeds[] = [
             'name' => "PHP",
+            'slug' => "php",
         ];
 
         $seeds[] = [
             'name' => "Programming",
+            'slug' => "programming",
         ];
 
         $seeds[] = [
             'name' => "Laravel",
+            'slug' => "laravel",
         ];
 
         DB::table('tags')->insert($seeds);

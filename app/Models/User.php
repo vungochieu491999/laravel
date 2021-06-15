@@ -53,4 +53,37 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class);
     }
+
+    public function hasAccess($permissions)
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    /**
+     * Always capitalize the first name when we retrieve it
+     * @param string $value
+     * @return string
+     */
+    public function getFirstNameAttribute($value)
+    {
+        return ucfirst($value);
+    }
+
+    /**
+     * Always capitalize the last name when we retrieve it
+     * @param string $value
+     * @return string
+     */
+    public function getLastNameAttribute($value)
+    {
+        return ucfirst($value);
+    }
+
+    /**
+     * @return string
+     */
+    public function getFullName()
+    {
+        return ucfirst($this->last_name) . ' ' . ucfirst($this->first_name);
+    }
 }

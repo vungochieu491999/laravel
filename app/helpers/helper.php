@@ -37,3 +37,14 @@ if (!function_exists('page_title')){
     }
 }
 
+if (!function_exists('load_menu_dashboard')){
+    /**
+     * return app folder path
+     * @param null $path
+     * @return string
+     */
+    function load_menu_dashboard(){
+        return \App\Facades\DashboardFacade::getFacadeRoot();
+    }
+}
+

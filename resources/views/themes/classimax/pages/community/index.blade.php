@@ -23,31 +23,30 @@
 <section class="blog section">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10 offset-md-1 col-lg-9 offset-lg-0">
-
+			<div class="widget col-md-10 offset-md-1 col-lg-9 offset-lg-0">
+                <h3 class="widget-header"> Topic </h3>
 				@foreach($posts as $post)
 					<article>
-						<!-- Post Title -->
-						<h3>{{ $post->title}}</h3>
-						<ul class="list-inline">
-							<li class="list-inline-item"> @foreach($post->tags as $tag) <a href="">{{ $tag->name }} </a> @if (!$loop->last) , @endif @endforeach </li>
-							<li class="list-inline-item">by <a href="">Admin</a></li>
-							<li class="list-inline-item">Nov 22,2016</li>
-						</ul>
-						<!-- Post Description -->
-						<p class="">{{ $post->description}}</p>
-						<!-- Read more button -->
-						<a href="{{ route('theme.posts',['slug' => $post->slug]) }}" class="btn btn-transparent">Read More</a>
+                        <!-- Post Title -->
+                        <a href="{{ route('theme.posts',['slug' => $post->slug]) }}" rel="noopener"> <h3> {{ $post->title}} </h3> </a>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"> @foreach($post->tags as $tag) <a href="{{ route('theme.post-tag',['slug' => $tag->slug ]) }}">{{ $tag->name }} </a> @if (!$loop->last) ,@endif @endforeach </li>
+                            <li class="list-inline-item">by <a href=" {{ route('theme.user-profile',['username' => $post->user->username ]) }} "> {{ $post->user->getFullName() }} </a></li>
+                            <li class="list-inline-item"> {{ $post->created_at->diffForHumans() }} </li>
+                            <li class="list-inline-item fa fa-eye"> {{ $post->views->count() }} </li>
+                            <li class="list-inline-item fa fa-thumbs-up"> {{ $post->reactions->count() }} </li>
+                            <li class="list-inline-item fa fa-heart"> {{ $post->reactions->count() }} </li>
+                            <li class="list-inline-item fa fa-comment"> {{ $post->comments->count() }} </li>
+                        </ul>
 					</article>
 				@endforeach
-				<!-- Article 01 -->
-				
+
 				<!-- Pagination -->
 				<nav aria-label="Page navigation example">
 				  <ul class="pagination">
-				    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-				    <li class="page-item"><a class="page-link" href="#">2</a></li>
-				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item active"><a class="page-link" href="https://laracasts.com/discuss/channels/general-discussion/how-to-add-read-more-link-after-posts-body">1</a></li>
+				    <li class="page-item"><a class="page-link" href="https://laracasts.com/discuss/channels/general-discussion/how-to-add-read-more-link-after-posts-body">2</a></li>
+				    <li class="page-item"><a class="page-link" href="https://laracasts.com/discuss/channels/general-discussion/how-to-add-read-more-link-after-posts-body">3</a></li>
 				    <li class="page-item">
 				      <a class="page-link" href="#" aria-label="Next">
 				        <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
@@ -72,7 +71,7 @@
 						<h5 class="widget-header">Categories</h5>
 						<ul class="category-list">
 							@foreach($categories as $category)
-								<li><a href="">{{ $category->name}} <span class="float-right">( {{ $category->posts->count() }} )</span></a></li>
+								<li><a href="{{ route('theme.categories',['slug' => $tag->slug ]) }}">{{ $category->name}} <span class="float-right">( {{ $category->posts->count() }} )</span></a></li>
 							@endforeach
 						</ul>
 					</div>
@@ -81,11 +80,9 @@
 						<!-- Widget Header -->
 						<h5 class="widget-header">Archives</h5>
 						<ul class="archive-list">
-							<li><a href="">January 2017</a></li>
-							<li><a href="">February 2017</a></li>
-							<li><a href="">March 2017</a></li>
-							<li><a href="">April 2017</a></li>
-							<li><a href="">May 2017</a></li>
+                            @foreach($years as $key => $year)
+                                <li><a href="{{ route('theme.community-year', ['year' => $key]) }}"> {{ $key }}</a></li>
+                            @endforeach
 						</ul>
 					</div>
 				</div>

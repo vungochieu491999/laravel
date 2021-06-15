@@ -39,4 +39,14 @@ class Post extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function views()
+    {
+        return $this->hasMany(PostView::class);
+    }
+
+    public function reactions()
+    {
+        return $this->hasMany(PostReaction::class);
+    }
 }

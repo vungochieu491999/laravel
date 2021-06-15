@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTagsTable extends Migration
+class CreateMenusTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateTagsTable extends Migration
      */
     public function up()
     {
-        Schema::create('tags', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('slug',100)->unique();
+        Schema::create('menus', function (Blueprint $table) {
+            $table->increments('id')->unsigned();;
+            $table->string('name', 120);
+            $table->string('slug', 120)->unique()->nullable();
+            $table->enum('status',['published','closed'])->default('published');
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ class CreateTagsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tags');
+        Schema::dropIfExists('menus');
     }
 }

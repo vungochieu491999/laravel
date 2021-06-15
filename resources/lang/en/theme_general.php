@@ -17,6 +17,7 @@ return [
     'community'             => 'Community',
     'category'              => 'Category',
     'post'                  => 'Post',
+    'topic'                 => 'Topic',
     'login'                 => 'Login',
     'register'              => 'Register',
     'user_name'             => 'User name',
@@ -25,6 +26,6 @@ return [
     'more'                  => 'More',
     'about'                 => 'About Us',
     'contact'               => 'Contact Us',
-
+    'read_more'             => 'Read More',
 
 ];

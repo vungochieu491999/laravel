@@ -6,6 +6,8 @@ use App\Http\Controllers\Theme\HomeController;
 use App\Http\Controllers\Theme\LoginController;
 use App\Http\Controllers\Theme\PostController;
 use App\Http\Controllers\Theme\RegisterController;
+use App\Http\Controllers\Theme\TagController;
+use App\Http\Controllers\Theme\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,12 +30,18 @@ Route::group(['middleware' =>'web', 'namespace' => 'App\Http\Controllers\Theme',
 
     Route::get('/store',[HomeController::class,'store'])->name('store');
 
+    Route::get('/user/profile/{username}',[UserController::class,'getProfile'])->name('user-profile');
+
     Route::group(['prefix' =>'community'], function() {
         Route::get('/',[CommunityController::class,'getIndex'])->name('community');
 
         Route::get('/p/{slug}',[PostController::class,'postShow'])->name('posts');
 
-        Route::get('/c/{id}',[CategoryController::class,'categoryShow'])->name('categories');
+        Route::get('/c/{slug}',[CategoryController::class,'categoryShow'])->name('categories');
+
+        Route::get('/tag/{slug}',[TagController::class,'postTag'])->name('post-tag');
+
+        Route::get('/year/{year}',[CommunityController::class,'getTopicYear'])->name('community-year');
 
     });
 
