@@ -25,10 +25,16 @@ class PostController extends Controller
         return view('Admin::pages.posts.index', compact('posts','prefix'));
     }
 
-    public function addPost(Request $request)
+    public function postAddMethodPost(Request $request)
     {
-        $post = Post::create();
-dd($post);
+        return view('Admin::pages.posts.index', compact('posts','prefix'));
+    }
+
+    public function postAddMethodGet(Request $request)
+    {
+        $request->all();
+        $post = Post::insert(['category_id' => 1, 'user_id' => 1, 'title']);
+
         return view('Admin::pages.posts.index', compact('posts','prefix'));
     }
 

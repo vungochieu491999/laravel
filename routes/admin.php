@@ -48,9 +48,6 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin'],function () {
         Route::post('/posts-add', [PostController::class,'addPost'])->name('posts-add');
         Route::get('/posts-add', [PostController::class,'addPost']);
 
-        Route::get('/posts-add/{id}', [PostController::class,'getIndex'])->name('posts-add-id');
-        Route::post('/posts-add/{id}', [PostController::class,'postIndex']);
-
         Route::get('/posts-edit/{slug}', [PostController::class,'getIndex'])->name('posts-edit');
         Route::post('/posts-edit/{slug}', [PostController::class,'postIndex']);
 
