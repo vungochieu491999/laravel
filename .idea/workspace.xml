@@ -2,46 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a49e9811-837d-4140-b6d6-b2632647d95f" name="Default Changelist" comment="source">
-      <change afterPath="$PROJECT_DIR$/app/Facades/DashboardFacade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/TagController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PostReaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Reaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Supports/Dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/pages/posts/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/community/load_category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/community/load_topic.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vi/admin_general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vi/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vi/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vi/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vi/theme_general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vi/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/madd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/madd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Theme/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Theme/CommunityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/CommunityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Theme/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Theme/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Theme/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Supports/SettingStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Supports/SettingStore.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_03_172227_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_06_03_172227_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_03_172545_create_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_06_03_172545_create_tags_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/PostSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PostSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/TagSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/TagSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/themes/classimax/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/classimax/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/general/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/general/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/admin_general.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin_general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/theme_general.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/theme_general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/layouts/partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/themes/classimax/pages/community/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes/classimax/pages/community/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/pages/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +164,7 @@
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1tKvJBaO8BGvOqAFT3cLHnO4Gyz" />
@@ -184,7 +178,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sbs-payroll" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -193,17 +187,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\laravel\app\Settings" />
+      <recent name="D:\xampp\htdocs\laravel\resources\views" />
       <recent name="D:\xampp\htdocs\laravel\app\Http\Controllers\Admin" />
       <recent name="D:\xampp\htdocs\madd\app\Traits" />
       <recent name="D:\xampp\htdocs\madd\app" />
-      <recent name="D:\xampp\htdocs\madd\app\Http\Controllers\admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\laravel\resources\views\admin\pages" />
-      <recent name="D:\xampp\htdocs\laravel\app\Facades" />
+      <recent name="D:\xampp\htdocs\laravel\resources\lang" />
+      <recent name="D:\xampp\htdocs\laravel\public\js" />
+      <recent name="D:\xampp\htdocs\laravel\public\css" />
       <recent name="D:\xampp\htdocs\laravel\app\Supports" />
-      <recent name="D:\xampp\htdocs\laravel\resources\views\themes\classimax\pages\community" />
-      <recent name="D:\xampp\htdocs\laravel\app\Http\Controllers\Theme" />
+      <recent name="D:\xampp\htdocs\laravel\resources\views\admin\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -242,6 +237,9 @@
       <workItem from="1623412676282" duration="21000" />
       <workItem from="1623637343588" duration="39000" />
       <workItem from="1623724331658" duration="23847000" />
+      <workItem from="1624506975533" duration="9177000" />
+      <workItem from="1624521849040" duration="607000" />
+      <workItem from="1624524826546" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="source">
       <created>1623066227955</created>
@@ -275,22 +273,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="source" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="714" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1623317095994">
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624515883401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="41" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623317095994" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1623749944203">
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624515883401" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624516986970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623749944203" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624516986970" />
     <state x="604" y="122" width="1266" height="811" key="CommitChangelistDialog2" timestamp="1623742554533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="122" width="1266" height="811" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623742554533" />
-    <state x="899" y="241" key="FileChooserDialogImpl" timestamp="1623726849289">
+    <state x="899" y="241" key="FileChooserDialogImpl" timestamp="1624525254742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="899" y="241" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623726849289" />
+    <state x="899" y="241" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624525254742" />
     <state x="730" y="334" key="NewPhpClassDialog" timestamp="1623755391354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,10 +297,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623744834783" />
-    <state x="1089" y="238" key="RollbackChangesDialog" timestamp="1623742539496">
+    <state x="1089" y="238" key="RollbackChangesDialog" timestamp="1624524835063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1089" y="238" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623742539496" />
+    <state x="1089" y="238" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624524835063" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1622532009831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,10 +321,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623378134415" />
-    <state x="844" y="189" width="1076" height="536" key="find.popup" timestamp="1623755295984">
+    <state x="844" y="189" width="1076" height="536" key="find.popup" timestamp="1624516354682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="844" y="189" width="1076" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623755295984" />
+    <state x="844" y="189" width="1076" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624516354682" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1622534232546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

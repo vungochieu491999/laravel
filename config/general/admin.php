@@ -1,4 +1,9 @@
 <?php
 return [
-    'admin_dir' => 'admin',
+    'login'      => 'Login',
+    'register'   => 'Register',
+    'dashboard'  => 'Dashboard',
+    'users'      => 'Users',
+    'member'     => 'Member',
+    'membership' => 'Membership',
 ];

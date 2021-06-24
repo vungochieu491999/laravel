@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\Admin\UserController;
-use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\MemberController;
 use Illuminate\Support\Facades\Route;
@@ -17,24 +17,18 @@ use Illuminate\Support\Facades\Route;
 | contains the "admin" middleware group. Now create something great!
 |
 */
-Route::group(['namespace' => 'App\Http\Controllers\Admin'],function () {
-    Route::group(['prefix' => config('general.admin.admin_dir'), 'middleware' => 'web', 'as' => 'admin.'], function() {
+Route::group(['prefix' => env('ADMIN_DIR'), 'middleware' => ['web'], 'as' => 'admin.'], function() {
+    Route::group(['namespace' => 'App\Http\Controllers\Admin'], function () {
+
         //dashboard
         Route::get('/', [DashboardController::class,'getIndex']);
         Route::get('/dashboard', [DashboardController::class,'getIndex'])->name('dashboard-view');
-
-        //login
-        Route::get('/login', [LoginController::class,'getIndex'])->name('login');
-        Route::post('/login', [LoginController::class,'getIndex']);
-
-        Route::get('/forgot-password', [LoginController::class,'getIndex'])->name('forgot-password');
-        Route::post('/forgot-password', [LoginController::class,'getIndex']);
 
         //users
         Route::get('/users', [UserController::class,'getIndex'])->name('users-view');
         Route::post('/users', [UserController::class,'postIndex']);
 
-        //members
+        //membership
         Route::get('/member', [MemberController::class,'getIndex'])->name('members-view');
         Route::post('/member', [MemberController::class,'postIndex']);
 
@@ -53,6 +47,18 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin'],function () {
 
         Route::post('/posts-delete/{slug}', [PostController::class,'postDelete'])->name('posts-delete');
 
+    });
+
+    Route::group(['namespace' => 'App\Http\Controllers\Admin\Auth'], function () {
+
+        //login
+        Route::get('/login', [LoginController::class,'showLoginForm'])->name('login');
+        Route::post('/login', [LoginController::class,'login']);
+
+        Route::get('/forgot-password', [LoginController::class,'getIndex'])->name('forgot-password');
+        Route::post('/forgot-password', [LoginController::class,'getIndex']);
+
+        Route::get('/logout', [LoginController::class,'logout'])->name('logout');
     });
 });
 

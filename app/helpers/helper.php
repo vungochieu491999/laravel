@@ -2,6 +2,7 @@
 
 use App\Facades\PageTitleFacade;
 use App\Facades\SettingFacade;
+use App\Supports\SettingStore;
 
 if (!function_exists('setting')) {
     /**
@@ -9,13 +10,13 @@ if (!function_exists('setting')) {
      *
      * @param $key
      * @param $default
-     * @return array|\Botble\Setting\Supports\SettingStore|string|null
+     * @return array|string|null
      */
     function setting($key = null, $default = null)
     {
         if (!empty($key)) {
             try {
-                return \App\Supports\SettingStore::get($key, $default);
+                return  (new SettingStore())->get($key, $default);
             } catch (Exception $exception) {
                 info($exception->getMessage());
                 return $default;

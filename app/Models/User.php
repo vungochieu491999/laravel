@@ -86,4 +86,20 @@ class User extends Authenticatable
     {
         return ucfirst($this->last_name) . ' ' . ucfirst($this->first_name);
     }
+
+    /**
+     * status activation user
+     * @return bool
+     */
+    public function completed(User $user)
+    {
+        $activation = $this
+            ->model
+            ->newQuery()
+            ->where('user_id', $user->getKey())
+            ->where('completed', true)
+            ->first();
+
+        return $activation ?: false;
+    }
 }

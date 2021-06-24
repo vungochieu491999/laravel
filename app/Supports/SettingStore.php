@@ -4,7 +4,7 @@ namespace App\Supports;
 
 use Illuminate\Support\Arr;
 
-abstract class SettingStore
+class SettingStore
 {
     /**
      * The settings data.
@@ -154,7 +154,9 @@ abstract class SettingStore
      *
      * @return array
      */
-    abstract protected function read();
+    protected function read()
+    {
+    }
 
     /**
      * Write the data into the store.
@@ -163,5 +165,8 @@ abstract class SettingStore
      *
      * @return void
      */
-    abstract protected function write(array $data);
+    protected function write(array $data)
+    {
+
+    }
 }
