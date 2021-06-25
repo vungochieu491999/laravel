@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('phone',15)->nullable();
+            $table->dateTime('last_login')->nullable();
             $table->text('permissions')->nullable();
             $table->tinyInteger('super_user');
             $table->dateTime('dob')->nullable();

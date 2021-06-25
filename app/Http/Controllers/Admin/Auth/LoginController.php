@@ -51,7 +51,7 @@ class LoginController extends Controller
      */
     public function __construct(BaseHttpResponse $response)
     {
-        $this->middleware('guest')->except('logout');
+        $this->middleware('user')->except('logout');
         $this->redirectTo   = env('ADMIN_DIR');
         $this->response     = $response;
         $this->defaultQuery = 'email';
@@ -103,11 +103,11 @@ class LoginController extends Controller
         $user = User::where('username', $loginAccount)->orWhere('phone', $loginAccount)->orWhere('email', $loginAccount)->first();
 
         if (!empty($user)) {
-//            if ((new User())->completed($user)) {
-//                return $this->response
-//                        ->setError()
-//                        ->setMessage(trans('admin_general.not_active'));
-//            }
+//           if (!$user->completed($user)) {
+//               return $this->response
+//                       ->setError()
+//                       ->setMessage(trans('admin_general.not_active'));
+//           }
 
             if ($user->username == $loginAccount) {
                 $this->defaultQuery = 'username';
@@ -123,7 +123,7 @@ class LoginController extends Controller
             if (!session()->has('url.intended')) {
                 session()->flash('url.intended', url()->current());
             }
-            dd(1);
+
             return $this->sendLoginResponse($request);
         }
 

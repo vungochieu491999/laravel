@@ -36,8 +36,6 @@
         </div>
     </li>
 
-
-
     <!-- Messages Dropdown Menu -->
     <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
@@ -135,5 +133,14 @@
         <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
             <i class="fas fa-th-large"></i>
         </a>
+    </li>
+    <!-- User Dropdown -->
+    <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+            <img src="{{ asset('bower_components/admin-lte/dist/img/user1-128x128.jpg') }}" alt="img-user" class="img-circle img-size-32" style="margin-top: -5px">
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <a href="{{ route('admin.logout') }}" class="dropdown-item dropdown-footer"> {{ trans('admin_general.logout') }} </a>
+        </div>
     </li>
 </ul>

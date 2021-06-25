@@ -93,10 +93,7 @@ class User extends Authenticatable
      */
     public function completed(User $user)
     {
-        $activation = $this
-            ->model
-            ->newQuery()
-            ->where('user_id', $user->getKey())
+        $activation = Activation::where('user_id', $user->getKey())
             ->where('completed', true)
             ->first();
 

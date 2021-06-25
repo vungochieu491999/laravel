@@ -16,7 +16,7 @@ class BaseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        Helper::autoload(__DIR__ . '/../helpers');
+        Helper::autoload(__DIR__ . '/../Helpers');
     }
 
     /**

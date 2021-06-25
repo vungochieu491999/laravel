@@ -14,6 +14,7 @@ return [
     'add_record'     => 'Add Record',
     'not_active'     => 'This account not active',
     'login'          => 'Login',
+    'logout'         => 'Log out',
     'logout_success' => 'Log out successfully',
     'login_to_start_session' => 'Login to start your session',
     'username_phone_email'   => 'Username/ Phone/ Email',
